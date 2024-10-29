@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    command: python ./app/__init__.py
+    ports:
+      - "8998:8998"
+    volumes:
+      - .:/python-flask/variable_dump

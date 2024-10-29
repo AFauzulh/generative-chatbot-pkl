@@ -1,0 +1,1 @@
+{"BATCH_SIZE": 128, "steps_per_epoch": 414, "embedding_dim": 1024, "units": 1536, "vocab_inp_size": 12546, "vocab_targ_size": 12183, "max_question_len": 17, "max_answer_len": 17, "EPOCHS": 100, "val_steps_per_epoch": 46}
