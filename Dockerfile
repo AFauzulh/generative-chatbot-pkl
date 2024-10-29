@@ -7,6 +7,6 @@ WORKDIR /chatbot-pkl-docker
 # copy the dependencies file to the working directory
 COPY requirements.txt requirements.txt
 # install dependencies
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
